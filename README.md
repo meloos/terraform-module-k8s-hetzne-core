@@ -18,7 +18,7 @@ Usage
 -----
 
 ```hcl
-module "hetzner" {
+module "k8s" {
   source = "git@github.com/meloos/terraform-module-k8s-hetzner-core.git"
 
   token = "<hcloud_token>"
